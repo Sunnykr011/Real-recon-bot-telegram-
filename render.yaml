@@ -3,7 +3,7 @@ services:
     name: telegram-recon-bot
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: python main.py
+    startCommand: python Main.py
     envVars:
       - key: TELEGRAM_BOT_TOKEN
         value: 8277384583:AAEfx-q85AAFtMrONM88pxS2JeknIaQ0hSg
